@@ -1,0 +1,59 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+ <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <div class="login-form">
+<h1>Survey Form</h1>
+<div class="myform">
+ <p>Let us know how we can improve our services.</p>
+ <form action="/action_page.php">
+     <fieldset>
+         <legend>Personal information:</legend>
+         <div class="inputa">
+        
+     <label for="fname">Username:</label>
+     <input type="text" name="fname" id="fname"><br><br>
+     <label for="Email">Email:</label>
+     <input type="datetime" id="Email" name="Email" placeholder="Example@gmail.com"><br><br>
+     <label for="Age">Age:</label>
+     <input type="text" id="Age" name="Age"><br><br>
+     <label for="phone">Telphone:</label>
+     <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}[0-9]{2}[0-9]{3}"><br><br>
+ 
+ </div>
+ 
+     <div class="Eroom">
+  <label for="playingEscaperoom" >First time playing Escape room</label> 
+  <select name="playingEscaperoom" id="playingEscaperoom">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+  </select><br><br>
+  </div>
+  <div class="games">
+  <input type="checkbox" id="game1" name="game1" value="Futbal">
+  <label for="game1">Futbal</label><br>
+  <input type="checkbox"  id="game2" name="game2" value="Basketball">
+  <label for="game2">Basketball</label><br>
+  <input type="checkbox" id="game3" name="game3" value="Baseball">
+  <label for="game3">Baseball</label><hr>
+  </div>
+  <div class="query">
+  <input type="radio" id="Definitely" name="Qn" value="Definitely">
+  <label for="Qn1">Definitely</label><br>
+  <input type="radio" id="Maybe" name="Qn" value="Maybe">
+  <label for="Qn2">Maybe</label><br>
+  <input type="radio" id="No" name="Qn" value="No">
+  <label for="Qn">No</label><br><br>
+  </div>
+  <label for="comments">Any comments or Suggestions?</label>
+  <input type="text" id="comments" name="comments">
+<button type="button">Submit</button>
+  </fieldset>
+ </form>
+ </div>
+   </body>
+   </html>
+  
+
